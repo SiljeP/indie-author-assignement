@@ -16,7 +16,7 @@ There will be several links throughtout the pages to the same project, but the l
 see github projects for to do/ kanban board.
 
 ### Audience
-Adults from 25+ years old. Journalist and/or economical interested people. 
+Adults from 25+ years old. Journalist and/or economical interested people. Listeners of the popular Danish economics podcast "Millionærklubben".
 
 ### Other information
 - The projects uses the BEM naming convention.
