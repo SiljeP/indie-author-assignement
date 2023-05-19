@@ -6,4 +6,9 @@
 
     --primary-color-shade-05: #83A194;
     --accent-color-dark-shade-03: #EAC49A;
+
+    --title-font: 'Bodoni Moda', serif;
+    --highlights-font:'Trade Gothic LT Std', sans-serif;
+    --body-font: 'Domine', serif;
+
 }
