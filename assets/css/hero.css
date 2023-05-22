@@ -1,0 +1,55 @@
+.frontpage__heroContainer {
+    margin: 1em 0 2em 0;
+    background-color: var(--primary-color-shade-05);
+    width: 100%;
+    display: flex;
+}
+
+.hero__textContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.hero__img {
+    margin: 2em;
+}
+
+.frontpage__heroTitle {
+    background-color: var(--accent-color-dark);
+    color: var(--accent-color-light);
+    font-family: var(--highlights-font);
+    font-weight: 100;
+    text-transform: uppercase;
+
+    width: 60%;
+    height: 10%;
+    padding: .5em;
+    letter-spacing: .3em;
+    margin: .5em 1em 0;
+}
+
+.hero__text {
+    font-family: var(--body-font);
+    color: var(--accent-color-light);
+
+    font-size: 20px;
+    padding: 0.5em;
+    line-height: 1.5;
+    margin: 0 .5em;
+
+}
+
+.hero__button{
+    padding: .5em;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: #E3B079;
+    font-family: var(--highlights-font) ;
+    border-style: none;
+    color: var(--accent-color-light);
+    text-align: start;
+  
+    width: 85%;
+    margin: 1em;
+}
