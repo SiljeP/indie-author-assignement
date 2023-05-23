@@ -94,25 +94,98 @@
         </div>
 
         <section class="frontpage__heroContainer">
-
-            <img class="hero__img" src="https://placehold.co/350x320" alt="placeholder">
+            <img class="hero__img" src="./assets/images/ole-hall-full.jpeg"
+                alt="Et billede af Ole Hall stående i DR byen">
             <div class="hero__textContainer">
                 <h3 class="frontpage__heroTitle">Om Ole Hall</h3>
                 <p class="hero__text">Ole Hall er en prisvindende dansk journalist, som er ansat i DR Nyheder, hvor han
                     dækker økonomi og erhvervsliv for P1 Morgen og P1 Orientering. Ole Hall bidrager også til TV Avisen,
                     Radioavisen, Genstart, Tiden og dr.dk. Før han i 2015 kom til DR, har han været skrivende journalist
-                    på bl.a. Berlingske, Jyllands-Posten og Altinget.dk. For sit journalistiske arbejde har Ole Hall modtaget flere nomineringer og priser - bl.a. har han modtaget EU-Komissionens Europæiske journalistpris
+                    på bl.a. Berlingske, Jyllands-Posten og Altinget.dk. For sit journalistiske arbejde har Ole Hall
+                    modtaget flere nomineringer og priser - bl.a. har han modtaget EU-Komissionens Europæiske
+                    journalistpris
                 </p>
                 <a href="#"><button class="hero__button">
                         <p class="hero__buttonText">Læs mere her</p>
                     </button></a>
             </div>
-
-
         </section>
-
-
+        <section class="frontpage__heroContainerLast">
+            <div class="hero__textContainer">
+                <h3 class="frontpage__heroTitleLast">Ryanair
+                    <span class="frontpage__heroTitleLast--size">- Flyselskabet mange hader - men alligevel flyver
+                        med</span>
+                </h3>
+                <p class="hero__textLast">Michael O’Leary gjorde Ryanair til luftens svar på Aldi, og flyselskabet blev
+                    under hans ledelse Europas mest succesfulde. Ryanair har i dag flest kunder, er det mest værdifulde
+                    flyselskab i Europa og er bedst til at tjene penge. I foråret 2015 blev det københavnernes tur til
+                    at flyve med det kontroversielle, irske lavprisselskab. Men fagforeninger, politikere og
+                    konkurrenter reagerede med modstand, da Ryanair åbnede sin første rute fra Københavns Lufthavn.
+                    Ryanair vil på ingen måde tegne dansk overenskomst, men vil fortsætte brugen af kontrakt- og
+                    vikaransættelser, som af en arbejdsmarkedsforsker er blevet kaldt “slavelignende vilkår”. Dette er
+                    historien om globalisering i praksis.
+                </p>
+                <a href="#"><button class="hero__buttonLast">
+                        <p class="hero__buttonText">Læs mere her</p>
+                    </button></a>
+            </div>
+            <img class="hero__img" src="./assets/images/ryanair-cover.png" alt="cover af bogen omkring Ryanair">
+        </section>
     </main>
+
+    <footer>
+        <img class="footer__svg" src="./assets/images/footer-wave.svg" alt="bølgende farve der går ned i footeren">
+        <div class="footer__container">
+            <menu>
+                <h3 class="footer__linksTitle">Links</h3>
+                <li class="footer__links"><a href="#">Om Ole Hall</a></li>
+                <li class="footer__links"><a href="#">Kontakt</a></li>
+                <li class="footer__links"><a href="#">Kasi-Jespers Kamp</a></li>
+                <li class="footer__links"><a href="#">Bitcoin-bedraget</a></li>
+                <li class="footer__links"><a href="#">Pandora - Danmarks vildeste væksteventyr</a></li>
+                <li class="footer__links"><a href="#">Ryanair - Flyselskabet mange hader - men alligevel flyver med</a>
+                </li>
+            </menu>
+            <h3 class="footer__contactTitle">Kontakt formular</h3>
+            <form class="footer__form" action="./tak.html" novalidate>
+                <div class="form__field">
+                    <label class="input__label">Navn:
+                        <input id="inputName" class="form__input" type="text" name="navn" placeholder="F.eks Brian"
+                            required>
+                    </label>
+                    <span class="form__message"></span>
+                </div>
+                <div class="form__field">
+                    <label class="input__label">Email:
+                        <input id="inputEmail" class="form__input" type="email" name="email"
+                            placeholder="F.eks osteelskeren@ost.dk" required>
+                    </label>
+                    <span class="form__message"></span>
+                </div>
+                <div class="form__field">
+                    <label class="input__label">Tlf:
+                        <input id="inputNumber" class="form__input" type="tel" name="tlf" placeholder="F.eks 10203040"
+                            required>
+                    </label>
+                    <span class="form__message"></span>
+
+                </div>
+                <div class="form__field">
+                    <label class="input__label">Besked:
+                        <textarea class="form__input" placeholder="F.eks. Jeg vil gerne bestille 2 kg ost"
+                            required></textarea>
+                    </label>
+                    <span class="form__message"></span>
+                </div>
+                <div class="form__submit">
+                    <button class="form__submitButton" type="submit">Send</button>
+                </div>
+            </form>
+           
+        </div>
+        <p class="footer__copyright">copyright Ole Hall - forfatter og erhvervsjournalist 2023
+            website af Silje Paldrup</p>
+    </footer>
 
 </body>
 
