@@ -34,3 +34,9 @@
     border-style: none;
     margin-left: 1em;
 }
+
+.news__button:hover{
+    background-color: var(--accent-color-dark);
+    text-decoration: underline;
+    color: var(--accent-color-light);
+}

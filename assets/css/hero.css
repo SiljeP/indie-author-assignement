@@ -26,7 +26,7 @@
     height: 8%;
     padding: .5em;
     letter-spacing: .3em;
-    margin: 2em .5em .5em .5em;
+    margin: 2em .3em .5em .5em;
 }
 
 .hero__text {
@@ -41,17 +41,22 @@
 }
 
 .hero__button{
-    padding: .5em;
+    padding: .6em;
     font-weight: 500;
     font-size: 17px;
     background-color: #E3B079;
     font-family: var(--highlights-font) ;
     border-style: none;
     color: var(--accent-color-light);
-    text-align: start;
   
-    width: 85%;
+    width: fit-content;
     margin: 1em;
+}
+
+.hero__button:hover, .hero__buttonLast:hover{
+ background-color: var(--accent-color-dark);
+ text-decoration: underline;
+
 }
 
 .frontpage__heroContainerLast{
@@ -84,16 +89,16 @@
 }
 
 .hero__buttonLast{
-    padding: .5em;
+    padding: .6em;
     font-weight: 500;
     font-size: 17px;
     background-color: #E3B079;
     font-family: var(--highlights-font) ;
     border-style: none;
     color: var(--accent-color-light);
-    text-align: start;
+    text-align: center;
   
-    width: 85%;
+    width: fit-content;
     margin: 0 2em;
 }
 

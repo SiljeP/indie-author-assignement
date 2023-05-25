@@ -6,7 +6,7 @@
 
 .bitcoin__article {
     display: flex;
-    
+
 }
 
 .bitcoin__articleTextContainer {
@@ -57,7 +57,7 @@
     font-family: var(--highlights-font);
     border-style: none;
 
-   
+
     text-transform: uppercase;
 
 
@@ -67,24 +67,41 @@
     border-radius: 20px;
 }
 
+.bitcoin__button:hover {
+    background-color: var(--accent-color-dark);
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.dr__logo:hover {
+    width: 2.5em;
+}
+
 .dr__logo {
     width: 2em;
-    
 }
 
 .podimo__logo {
     width: 5em;
+}
 
+.podimo__logo:hover {
+    width: 6em;
+}
+
+.fa-spotify:hover {
+    font-size: 2.5em;
 }
 
 .podcast__soMeLinks {
     width: fit-content;
     text-align: right;
     margin: 1em;
-   
+
 }
 
-.bitcoin__buttonContainer{
+.bitcoin__buttonContainer {
     display: flex;
     flex-direction: row;
 }
