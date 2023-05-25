@@ -8,16 +8,25 @@
 }
 
 .frontpage__cards {
-    width: 390px;
-    height: 750px;
+    width: 350px;
+    height: 620px;
 
     border-style: solid;
-    border-radius: 7%;
+    border-color: rgb(216, 216, 216);
+    border-radius: 20px;
+}
+
+.frontpage__cards:hover{
+    border: 5px outset var(--primary-color) ;
+    transition: ease ;
 }
 
 .frontpage__cardsImg {
-    margin: 1em 2.4em;
-    border-radius: 8%;
+    border-radius: 20px;
+    display: block;
+    width:100%;
+    height: 45%;
+    
 
 }
 
@@ -29,7 +38,7 @@
     text-transform: uppercase;
 
     padding: .5em;
-    margin: 0.5em 0;
+    margin: 0 0 0.5em 0;
 
 
 }
@@ -44,12 +53,12 @@
 }
 
 .frontpage__cardsH3--pandora {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .frontpage__cardsText {
     font-family: var(--body-font);
-    font-size: 20px;
+    font-size: 18px;
     padding: 0.5em;
     line-height: 1.5;
 }

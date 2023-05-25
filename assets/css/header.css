@@ -9,7 +9,10 @@
 
 
 }
-
+.siteheader__frontpageLink{
+    display: flex;
+    
+}
 .siteHeader__img {
     width: 120px;
     height: 140px;

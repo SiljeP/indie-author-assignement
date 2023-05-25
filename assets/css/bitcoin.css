@@ -1,0 +1,90 @@
+.bitcoin__Headerlink {
+    font-weight: 600;
+    font-size: x-large;
+    line-height: .2em;
+}
+
+.bitcoin__article {
+    display: flex;
+    
+}
+
+.bitcoin__articleTextContainer {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2em;
+}
+
+
+.bitcoin__title {
+    font-family: var(--title-font);
+    font-weight: 100;
+    font-size: xx-large;
+
+}
+
+.bitcoin__subheading {
+    font-family: var(--highlights-font);
+    font-size: x-large;
+    padding: .7em 0;
+
+}
+
+.bitcoin__bodyText {
+    font-family: var(--body-font);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.bitcoin__bodyText--credits {
+    font-size: medium;
+    padding: .7em 0;
+}
+
+.bitcoin__articleImg {
+    height: 50vh;
+    width: 70vh;
+    margin: 2em;
+    border-radius: 20px;
+}
+
+.bitcoin__button {
+
+    font-weight: 600;
+    font-size: x-large;
+    background-color: var(--accent-color-dark-shade-03);
+    font-family: var(--highlights-font);
+    border-style: none;
+
+   
+    text-transform: uppercase;
+
+
+    width: fit-content;
+    height: fit-content;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.dr__logo {
+    width: 2em;
+    
+}
+
+.podimo__logo {
+    width: 5em;
+
+}
+
+.podcast__soMeLinks {
+    width: fit-content;
+    text-align: right;
+    margin: 1em;
+   
+}
+
+.bitcoin__buttonContainer{
+    display: flex;
+    flex-direction: row;
+}
