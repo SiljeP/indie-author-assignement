@@ -1,55 +1,52 @@
-.bitcoin__Headerlink {
+.elonmusk__headerLink {
     font-weight: 600;
     font-size: x-large;
     line-height: .2em;
 }
 
-.bitcoin__article {
+.elonmusk__article {
     display: flex;
+    justify-content: space-between;
+
 
 }
 
-.bitcoin__articleTextContainer {
+.elonmusk__articleTextContainer {
     display: flex;
     flex-direction: column;
-
+    
     padding: 2em;
 }
 
 
-.bitcoin__title {
+.elonmusk__title {
     font-family: var(--title-font);
     font-weight: 100;
     font-size: xx-large;
 
 }
 
-.bitcoin__subheading {
+.elonmusk__subheading {
     font-family: var(--highlights-font);
     font-size: x-large;
     padding: .7em 0;
 
 }
 
-.bitcoin__bodyText {
+.elonmusk__bodyText {
     font-family: var(--body-font);
     font-size: 20px;
     line-height: 1.5;
+    padding: 1em 0;
 }
 
-.bitcoin__bodyText--credits {
-    font-size: medium;
-    padding: .7em 0;
-}
-
-.bitcoin__articleImg {
-    height: 50vh;
-    width: 70vh;
+.elonmusk__articleImg {
+    height: 75vh;
     margin: 2em;
     border-radius: 20px;
 }
 
-.bitcoin__button {
+.elonmusk__button {
 
     font-weight: 600;
     font-size: x-large;
@@ -67,42 +64,10 @@
     border-radius: 20px;
 }
 
-.bitcoin__button:hover {
+.elonmusk__button:hover {
     background-color: var(--accent-color-dark);
     text-decoration: underline;
     cursor: pointer;
     color: var(--accent-color-light);
 
-}
-
-.dr__logo:hover {
-    width: 2.5em;
-}
-
-.dr__logo {
-    width: 2em;
-}
-
-.podimo__logo {
-    width: 5em;
-}
-
-.podimo__logo:hover {
-    width: 6em;
-}
-
-.fa-spotify:hover {
-    font-size: 2.5em;
-}
-
-.podcast__soMeLinks {
-    width: fit-content;
-    text-align: right;
-    margin: 1em;
-
-}
-
-.bitcoin__buttonContainer {
-    display: flex;
-    flex-direction: row;
 }
