@@ -1,0 +1,107 @@
+.books__headerLink{
+    font-weight: 600;
+    font-size: x-large;
+    line-height: .2em;
+}
+
+.books__elonmuskContainer,
+.books__pandoraContainer {
+    text-align: right;
+    padding: 2em;
+    display: flex;
+}
+
+.books__elonmuskTextContainer,
+.books__pandoraTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.books__elonmuskTitle,
+.books__kasijesperTitle,
+.books__pandoraTitle,
+.books__ryanairTitle {
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: x-large;
+    background-color: var(--accent-color-dark-shade-03);
+    width: fit-content;
+    height: fit-content;
+    padding: .3em;
+    margin: 0 1em;
+
+
+}
+
+.books__elonmuskText,
+.books__kasijesperText,
+.books__pandoraText,
+.books__ryanairText {
+    font-family: var(--body-font);
+    line-height: 1.5;
+    width: 70%;
+    margin: 0 1.5em;
+
+}
+
+
+
+.books__kasijesperContainer,
+.books__ryanairContainer {
+    text-align: left;
+    padding: 2em;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+
+.books__kasijesperTextContainer,
+.books__ryanairTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.books__elonButtonsContainer,
+.books__pandoraButtonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.books__kasiButtonsContainer,
+.books__ryanairButtonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.books__buttons {
+    font-weight: 600;
+    font-size: large;
+    background-color: var(--accent-color-dark-shade-03);
+    font-family: var(--highlights-font);
+    border-style: none;
+    text-transform: uppercase;
+    width: max-content;
+    padding: .5em .5em;
+    border-radius: 20px;
+    margin: 1.8em 1.2em;
+    text-align: center;
+
+}
+
+.books__buttons:hover {
+    background-color: var(--accent-color-dark);
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--accent-color-light);
+
+}

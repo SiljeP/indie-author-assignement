@@ -1,15 +1,15 @@
-.kasijesper__headerLink {
+.ryanair__headerLink {
     font-weight: 600;
     font-size: x-large;
     line-height: .2em;
 }
 
-.kasijesper__article {
+.ryanair__article {
     display: flex;
 
 }
 
-.kasijesper__articleTextContainer {
+.ryanair__articleTextContainer {
     display: flex;
     flex-direction: column;
 
@@ -17,34 +17,41 @@
 }
 
 
-.kasijesper__title {
+.ryanair__title {
     font-family: var(--title-font);
     font-weight: 100;
     font-size: xx-large;
 
 }
 
-.kasijesper__subheading {
+.ryanair__underTitle{
+    font-size: large;
+    font-family: var(--title-font);
+    font-weight: 100;
+    
+}
+
+.ryanair__subheading {
     font-family: var(--highlights-font);
     font-size: x-large;
     padding: .7em 0;
 
 }
 
-.kasijesper__bodyText {
+.ryanair__bodyText {
     font-family: var(--body-font);
     font-size: 20px;
     line-height: 1.5;
     padding: 1em 0;
 }
 
-.kasijesper__articleImg {
-    height: 75vh;
-    margin: 2em;
+.ryanair__articleImg {
+    height: 45vh;
+    margin: 5em 2.5em;
     border-radius: 20px;
 }
 
-.kasijesper__button {
+.ryanair__button {
 
     font-weight: 600;
     font-size: x-large;
@@ -59,7 +66,7 @@
     margin: 0 .5em;
 }
 
-.kasijesper__button:hover {
+.ryanair__button:hover {
     background-color: var(--accent-color-dark);
     text-decoration: underline;
     cursor: pointer;
@@ -67,38 +74,37 @@
 
 }
 
-.kasijesper__review {
+.ryanair__review {
     display: flex;
     justify-content: space-evenly;
 
 }
 
-.kasijesper__reviewBox {
+.ryanair__reviewBox {
     font-family: var(--body-font);
     box-shadow: -6px 6px 16px 3px var(--primary-color);
     text-align: center;
     font-size: large;
     width: 42vh;
-    height: 25vh;
+    height: 30vh;
     transition: box-shadow .5s ease;
 }
 
-.kasijesper__reviewBox:hover {
+.ryanair__reviewBox:hover {
     box-shadow: -6px 6px 16px 6px var(--primary-color);
 }
 
-.kasijesper__reviewText {
+.ryanair__reviewText {
     padding: 2em 1em;
     line-height: 1.5;
 }
 
-.kasijesper__reviewTextAuthor {
+.ryanair__reviewTextAuthor {
     font-family: var(--highlights-font);
     padding: .5em;
 }
 
-.kasijesper__media {
-    padding-top: 3rem;
+.ryanair__media{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -106,32 +112,27 @@
     justify-content: center;
     align-items: center;
 }
-
-.kasijesper__mediaTitle {
+.ryanair__mediaTitle {
     font-family: var(--highlights-font);
     font-size: x-large;
     text-align: center;
-}
-
-.kasijesper__mediaGenstart {
-    width: 5em;
-    border-radius: 50%;
-  
+    margin: 2em;
 }
 
 .media__link{
     display: flex;
    
+   
 }
 
-.kasijesper__mediaText {
+.ryanair__mediaText {
     font-family: var(--body-font);
     font-size: medium;
     padding: 1.5em 1em;
 
 }
 
-.genstart__container, .tv2__container, .bt__container, .eb__container {
+ .bt__container{
     margin: 0 2em;
     border-radius: 20px;
     width: fit-content;
@@ -139,18 +140,10 @@
     padding: 1em;
 }
 
-.genstart__container:hover, .tv2__container:hover, .bt__container:hover, .eb__container:hover {
+ .bt__container:hover{
     box-shadow: -6px 6px 16px 6px var(--accent-color-dark-shade-03);
 }
 
-.kasijesper__mediaTV2{
-    width: 4em;
-    
-}
-.kasijesper__mediaBT{
+.ryanair__mediaBT{
     width: 5em;
-}
-
-.kasijesper__mediaEB{
-    width: 3em;
 }

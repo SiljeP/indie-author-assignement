@@ -1,15 +1,15 @@
-.kasijesper__headerLink {
+.pandora__headerLink {
     font-weight: 600;
     font-size: x-large;
     line-height: .2em;
 }
 
-.kasijesper__article {
+.pandora__article {
     display: flex;
 
 }
 
-.kasijesper__articleTextContainer {
+.pandora__articleTextContainer {
     display: flex;
     flex-direction: column;
 
@@ -17,34 +17,34 @@
 }
 
 
-.kasijesper__title {
+.pandora__title {
     font-family: var(--title-font);
     font-weight: 100;
     font-size: xx-large;
 
 }
 
-.kasijesper__subheading {
+.pandora__subheading {
     font-family: var(--highlights-font);
     font-size: x-large;
     padding: .7em 0;
 
 }
 
-.kasijesper__bodyText {
+.pandora__bodyText {
     font-family: var(--body-font);
     font-size: 20px;
     line-height: 1.5;
     padding: 1em 0;
 }
 
-.kasijesper__articleImg {
+.pandora__articleImg {
     height: 75vh;
     margin: 2em;
     border-radius: 20px;
 }
 
-.kasijesper__button {
+.pandora__button {
 
     font-weight: 600;
     font-size: x-large;
@@ -59,7 +59,7 @@
     margin: 0 .5em;
 }
 
-.kasijesper__button:hover {
+.pandora__button:hover {
     background-color: var(--accent-color-dark);
     text-decoration: underline;
     cursor: pointer;
@@ -67,90 +67,39 @@
 
 }
 
-.kasijesper__review {
+.pandora__review {
     display: flex;
     justify-content: space-evenly;
 
 }
 
-.kasijesper__reviewBox {
+.pandora__reviewBox {
     font-family: var(--body-font);
     box-shadow: -6px 6px 16px 3px var(--primary-color);
     text-align: center;
     font-size: large;
     width: 42vh;
-    height: 25vh;
+    height: 30vh;
     transition: box-shadow .5s ease;
 }
 
-.kasijesper__reviewBox:hover {
+.pandora__reviewBox:hover {
     box-shadow: -6px 6px 16px 6px var(--primary-color);
 }
 
-.kasijesper__reviewText {
+.pandora__reviewText {
     padding: 2em 1em;
     line-height: 1.5;
 }
 
-.kasijesper__reviewTextAuthor {
+.pandora__reviewTextAuthor {
     font-family: var(--highlights-font);
     padding: .5em;
 }
 
-.kasijesper__media {
-    padding-top: 3rem;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.kasijesper__mediaTitle {
+.pandora__mediaTitle {
     font-family: var(--highlights-font);
     font-size: x-large;
     text-align: center;
-}
-
-.kasijesper__mediaGenstart {
-    width: 5em;
-    border-radius: 50%;
-  
-}
-
-.media__link{
-    display: flex;
-   
-}
-
-.kasijesper__mediaText {
-    font-family: var(--body-font);
-    font-size: medium;
-    padding: 1.5em 1em;
-
-}
-
-.genstart__container, .tv2__container, .bt__container, .eb__container {
-    margin: 0 2em;
-    border-radius: 20px;
-    width: fit-content;
-    transition: box-shadow .5s ease;
-    padding: 1em;
-}
-
-.genstart__container:hover, .tv2__container:hover, .bt__container:hover, .eb__container:hover {
-    box-shadow: -6px 6px 16px 6px var(--accent-color-dark-shade-03);
-}
-
-.kasijesper__mediaTV2{
-    width: 4em;
-    
-}
-.kasijesper__mediaBT{
-    width: 5em;
-}
-
-.kasijesper__mediaEB{
-    width: 3em;
+    margin: 2em;
 }
