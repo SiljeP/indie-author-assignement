@@ -1,7 +1,6 @@
 .kasijesper__headerLink {
-    font-weight: 600;
-    font-size: x-large;
-    line-height: .2em;
+    font-weight: 800;
+    font-size: large;
 }
 
 .kasijesper__article {
@@ -26,16 +25,16 @@
 
 .kasijesper__subheading {
     font-family: var(--highlights-font);
-    font-size: x-large;
-    padding: .7em 0;
+    font-size: large;
+    padding-top: 1em;
 
 }
 
 .kasijesper__bodyText {
     font-family: var(--body-font);
-    font-size: 20px;
+    font-size: large;
     line-height: 1.5;
-    padding: 1em 0;
+    padding-bottom: 1.5em;
 }
 
 .kasijesper__articleImg {
@@ -47,7 +46,7 @@
 .kasijesper__button {
 
     font-weight: 600;
-    font-size: x-large;
+    font-size: large;
     background-color: var(--accent-color-dark-shade-03);
     font-family: var(--highlights-font);
     border-style: none;
@@ -56,12 +55,11 @@
     height: fit-content;
     padding: 1em;
     border-radius: 20px;
-    margin: 0 .5em;
+   
 }
 
 .kasijesper__button:hover {
     background-color: var(--accent-color-dark);
-    text-decoration: underline;
     cursor: pointer;
     color: var(--accent-color-light);
 

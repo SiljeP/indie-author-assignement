@@ -8,10 +8,13 @@
 .hero__textContainer {
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
 
 }
 
 .hero__img {
+    
+    height: 18em;
     margin: 2em;
 }
 
@@ -19,31 +22,33 @@
     background-color: var(--accent-color-dark);
     color: var(--accent-color-light);
     font-family: var(--highlights-font);
-    font-weight: 100;
+    
     text-transform: uppercase;
 
+    
     width: 60%;
-    height: 8%;
+    height: fit-content;
     padding: .5em;
     letter-spacing: .3em;
-    margin: 2em .3em .5em .5em;
+    margin: 2em .3em 0 .5em;
+    
 }
 
 .hero__text {
     font-family: var(--body-font);
     color: var(--accent-color-light);
 
-    font-size: 20px;
+    font-size: medium;
     padding: 0.5em;
-    line-height: 1.5;
-    margin: 0 .5em;
+    line-height: 1.7;
+    margin: .5em .5em;
 
 }
 
 .hero__button{
     padding: .6em;
     font-weight: 500;
-    font-size: 17px;
+    font-size: medium;
     background-color: #E3B079;
     font-family: var(--highlights-font) ;
     border-style: none;
@@ -55,7 +60,7 @@
 
 .hero__button:hover, .hero__buttonLast:hover{
  background-color: var(--accent-color-dark);
- text-decoration: underline;
+ 
 
 }
 
@@ -69,10 +74,10 @@
 .hero__textLast {
     font-family: var(--body-font);
 
-    font-size: 20px;
+    font-size: medium;
     padding: 0.5em;
-    line-height: 1.5;
-    margin: 2em;
+    line-height: 1.7;
+    margin: .5em 2em;
 }
 .frontpage__heroTitleLast{
     background-color: var(--accent-color-dark);
@@ -82,7 +87,7 @@
     text-transform: uppercase;
 
     width: 80%;
-    height: 10%;
+    height: fit-content;
     padding: .5em;
     letter-spacing: .3em;
     margin: 0 2em;
@@ -91,7 +96,7 @@
 .hero__buttonLast{
     padding: .6em;
     font-weight: 500;
-    font-size: 17px;
+    font-size: medium;
     background-color: #E3B079;
     font-family: var(--highlights-font) ;
     border-style: none;

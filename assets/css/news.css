@@ -1,5 +1,5 @@
 .frontpage__news{
-    border-style: solid;
+   
     width: 50em;
     height: 20em;
     margin: 1em 1em 1em 2em;
@@ -12,16 +12,16 @@
     font-family: var(--highlights-font);
     font-weight: 100;
     text-transform: uppercase ;
-    padding: 0.4em 0.6em;
+    padding: 0.5em;
 
     letter-spacing: .5em;
 }
 
 .news__text{
     font-family: var(--body-font);
-    font-size: 20px;
-    padding: 0.5em;
-    line-height: 1.5;
+    font-size: medium;
+    padding: 0.4em;
+    line-height: 1.7;
   
 }
 
@@ -32,11 +32,11 @@
     background-color: var(--accent-color-dark-shade-03);
     font-family: var(--highlights-font) ;
     border-style: none;
-    margin-left: 1em;
+    margin-left: .4em;
+    margin-top: 3em;
 }
 
 .news__button:hover{
     background-color: var(--accent-color-dark);
-    text-decoration: underline;
     color: var(--accent-color-light);
 }

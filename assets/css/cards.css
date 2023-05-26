@@ -9,7 +9,7 @@
 
 .frontpage__cards {
     width: 350px;
-    height: 620px;
+    height: 550px;
 
     border-style: solid;
     border-color: rgb(216, 216, 216);
@@ -53,13 +53,15 @@
 
 }
 
+/* ser mærkeligt ud med den lange titel
 .frontpage__cardsH3--pandora {
     font-size: 14px;
-}
+    font-family: var(--body-font);
+} */
 
 .frontpage__cardsText {
     font-family: var(--body-font);
-    font-size: 18px;
+    font-size: medium;
     padding: 0.5em;
     line-height: 1.5;
 }
@@ -79,7 +81,6 @@
 
 .cards__button:hover{
     background-color: var(--accent-color-dark);
-    text-decoration: underline;
     color: var(--accent-color-light);
 }
 

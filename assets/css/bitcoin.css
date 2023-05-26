@@ -1,7 +1,6 @@
 .bitcoin__Headerlink {
-    font-weight: 600;
-    font-size: x-large;
-    line-height: .2em;
+    font-weight: 800;
+    font-size: large;
 }
 
 .bitcoin__article {
@@ -26,20 +25,21 @@
 
 .bitcoin__subheading {
     font-family: var(--highlights-font);
-    font-size: x-large;
-    padding: .7em 0;
+    font-size: large;
+    padding-top: 1em;
 
 }
 
 .bitcoin__bodyText {
     font-family: var(--body-font);
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: medium;
+    line-height: 1.7;
 }
 
 .bitcoin__bodyText--credits {
-    font-size: medium;
+    font-size: small;
     padding: .7em 0;
+    margin: 1em 0;
 }
 
 .bitcoin__articleImg {
@@ -52,7 +52,7 @@
 .bitcoin__button {
 
     font-weight: 600;
-    font-size: x-large;
+    font-size: large;
     background-color: var(--accent-color-dark-shade-03);
     font-family: var(--highlights-font);
     border-style: none;
@@ -69,7 +69,6 @@
 
 .bitcoin__button:hover {
     background-color: var(--accent-color-dark);
-    text-decoration: underline;
     cursor: pointer;
     color: var(--accent-color-light);
 

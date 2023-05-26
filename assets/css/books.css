@@ -1,21 +1,6 @@
-.books__headerLink{
-    font-weight: 600;
-    font-size: x-large;
-    line-height: .2em;
-}
-
-.books__elonmuskContainer,
-.books__pandoraContainer {
-    text-align: right;
-    padding: 2em;
-    display: flex;
-}
-
-.books__elonmuskTextContainer,
-.books__pandoraTextContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.books__headerLink {
+    font-weight: 800;
+    font-size: large;
 }
 
 .books__elonmuskTitle,
@@ -25,13 +10,12 @@
     font-family: var(--title-font);
     font-weight: 400;
     font-size: x-large;
-    background-color: var(--accent-color-dark-shade-03);
+    background-color: var(--primary-color-shade-05);
+    color: var(--accent-color-light);
     width: fit-content;
     height: fit-content;
     padding: .3em;
     margin: 0 1em;
-
-
 }
 
 .books__elonmuskText,
@@ -42,13 +26,15 @@
     line-height: 1.5;
     width: 70%;
     margin: 0 1.5em;
+    font-size: medium;
+    padding-top: 1em;
 
 }
 
-
-
 .books__kasijesperContainer,
-.books__ryanairContainer {
+.books__ryanairContainer,
+.books__elonmuskContainer,
+.books__pandoraContainer {
     text-align: left;
     padding: 2em;
     display: flex;
@@ -58,24 +44,20 @@
 }
 
 .books__kasijesperTextContainer,
-.books__ryanairTextContainer {
+.books__ryanairTextContainer,
+.books__elonmuskTextContainer,
+.books__pandoraTextContainer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
 
-
-.books__elonButtonsContainer,
-.books__pandoraButtonsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    justify-content: flex-end;
+    
 }
 
 .books__kasiButtonsContainer,
-.books__ryanairButtonsContainer {
+.books__ryanairButtonsContainer,
+.books__elonButtonsContainer,
+.books__pandoraButtonsContainer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -91,7 +73,7 @@
     border-style: none;
     text-transform: uppercase;
     width: max-content;
-    padding: .5em .5em;
+    padding: .5em;
     border-radius: 20px;
     margin: 1.8em 1.2em;
     text-align: center;
@@ -100,7 +82,6 @@
 
 .books__buttons:hover {
     background-color: var(--accent-color-dark);
-    text-decoration: underline;
     cursor: pointer;
     color: var(--accent-color-light);
 
