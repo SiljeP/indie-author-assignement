@@ -1,0 +1,57 @@
+.about__headerLink{
+    font-weight: 800;
+    font-size: large;
+
+}
+.about__article{
+    display: flex;
+}
+.about__articleTextContainer {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2em;
+}
+.about__buttonContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.about__img{
+    height: 65vh;
+    margin: 2em;
+    border-radius: 20px;
+}
+.about__title{
+    font-family: var(--title-font);
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+.about__bodyText{
+    font-family: var(--body-font);
+    font-size: medium;
+    line-height: 1.5;
+    padding-bottom: 1.5em;
+}
+
+.about__button{
+    font-weight: 600;
+    font-size: large;
+    background-color: var(--accent-color-dark-shade-03);
+    font-family: var(--highlights-font);
+    border-style: none;
+    text-transform: uppercase;
+    width: fit-content;
+    height: fit-content;
+    padding: 1em;
+    border-radius: 20px;
+    margin: .5em 2em 0 0;
+}
+
+.about__button:hover {
+    background-color: var(--accent-color-dark);
+    cursor: pointer;
+    color: var(--accent-color-light);
+
+}
