@@ -50,7 +50,34 @@
             </article>
 
             <div class="frontpage__slider">
-                <img src="https://placehold.co/520x320" alt="placeholder image">
+                <div class="carousel">
+                    <button class="carousel__button carousel__button--left is-hidden" >
+                        <img src="./assets/images/left.svg" alt="">
+                    </button>
+                    <div class="carousel__track-container">
+                        <ul class="carousel__track">
+                            <li class="carousel__slide current-slide" >
+                                <img class="carousel__image" src="./assets/images/ole-hall-slider1.jpeg" alt="">
+                            </li>
+                            <li class="carousel__slide">
+                                <img class="carousel__image" src="./assets/images/ole-hall-slider2.jpeg" alt="">
+                            </li>
+                            <li class="carousel__slide">
+                                <img class="carousel__image" src="./assets/images/ole-hall-slider3.jpeg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="carousel__button carousel__button--right">
+                        <img src="./assets/images/right.svg" alt="">
+                    </button>
+            
+            
+                    <div class="carousel__nav">
+                        <button class="carousel__indicator current-slide"></button>
+                        <button class="carousel__indicator"></button>
+                        <button class="carousel__indicator"></button>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="frontpage__cardsContainer">
@@ -196,7 +223,7 @@
         <p class="footer__copyright">© Copyright Ole Hall - Forfatter og Erhvervsjournalist 2023.
             Website af Silje Paldrup</p>
     </footer>
-
+<script src="./assets/script/slider.js" defer></script>
+<script src="./assets/script/contact.js" defer></script>
 </body>
-
 </html>
