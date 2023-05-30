@@ -1,5 +1,6 @@
 (function () {
-    const FORM = document.querySelector(".footer__form")
+    
+    const FORM = document.querySelector(".contact__form")
     let success
 
     FORM.addEventListener("submit", submitHandler)

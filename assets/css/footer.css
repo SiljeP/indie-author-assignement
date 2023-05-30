@@ -3,6 +3,8 @@
     margin-top: 0;
 
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 
@@ -45,6 +47,10 @@
 
 }
 
+.footer__links:hover{
+    text-decoration: underline;
+}
+
 .footer__contactContainer {
     display: flex;
     flex-wrap: wrap;
@@ -61,6 +67,11 @@ a {
     background-color: #DC9D58;
     text-align: center;
     padding: 2em;
+}
+
+.copyright__container {
+   
+    margin-left: 30%;
 }
 
 .footer__contactTitle {
@@ -89,10 +100,12 @@ a {
 .fa-brands {
     font-size: xx-large;
     padding: .2em;
+
 }
 
 .footer__socials {
     display: flex;
     flex-direction: row;
+    margin-right: 10em;
 
 }

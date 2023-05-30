@@ -62,6 +62,8 @@
 .carousel__button--right {
     right: -40px;
     cursor: pointer;
+    font-size: large;
+    
 }
 
 .carousel__button img {

@@ -1,7 +1,35 @@
-/* lav inputfeltet om efter den video brian ligger op */
+.contact__headerLink {
+    font-weight: 800;
+    font-size: large;
+}
+
+.contact__article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2em;
+
+}
+
+.contact__articleTitle {
+    font-family: var(--title-font);
+    font-weight: 100;
+    font-size: xx-large;
+
+}
+
+
+
+.contact__articleBodyText {
+    font-family: var(--body-font);
+    font-size: medium;
+    line-height: 1.7;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
 .input__label {
     display: flex;
-    justify-content:space-around;
+    
     padding: 0 2em;
     align-items: center;
     margin: 0 2em;
@@ -13,21 +41,19 @@
     flex-direction: column;
     padding: 2em;
     flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
+    
 }
 
 .form__input {
-    width: 100%;
-    margin: auto;
+    width: 50%;
+    margin: .5em 2em;
     font-size: medium;
 
     font-family: var(--body-font);
 }
 
 .form__submit {
-    display: flex;
-    justify-content: center;
+    margin-left: 5%;
 }
 
 .form__submitButton {
@@ -48,7 +74,6 @@
 .form__submitButton:hover{
     
         background-color: var(--accent-color-dark);
-
         cursor: pointer;
         color: var(--accent-color-light);
 }

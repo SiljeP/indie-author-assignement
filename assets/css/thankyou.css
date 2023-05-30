@@ -1,0 +1,30 @@
+.section__thanks {
+    text-align: center;
+    width: 80%;
+    height: 50%;
+    margin: auto;
+}
+
+.section__thanks h1 {
+    text-transform: uppercase;
+    padding: 1em;
+    font-family: var(--title-font);
+    font-weight: 100;
+    font-size: xx-large;
+}
+
+.section__thanks p {
+    margin: auto;
+}
+
+.thankyou__name {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.thanks__text {
+    font-family: var(--body-font);
+    font-size: medium;
+    line-height: 1.7;
+    padding: .5em 0;
+}
