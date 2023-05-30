@@ -60,7 +60,6 @@
 
 .pandora__button:hover {
     background-color: var(--accent-color-dark);
-    text-decoration: underline;
     cursor: pointer;
     color: var(--accent-color-light);
 
