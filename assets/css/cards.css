@@ -3,7 +3,7 @@
     flex-direction: row;
     gap: 2em;
 
-    margin-top: 1em;
+    margin: 2em 0;
     justify-content: center;
 }
 
@@ -17,7 +17,7 @@
     transition: border .5s ease;
 }
 
-.frontpage__cards:hover{
+.frontpage__cards:hover {
     border: 5px outset var(--primary-color);
 
 }
@@ -28,7 +28,7 @@
     display: block;
     width: 100%;
     height: 347px;
-   
+
 }
 
 
@@ -54,34 +54,31 @@
 
 }
 
-/* ser mærkeligt ud med den lange titel
-.frontpage__cardsH3--pandora {
-    font-size: 14px;
-    font-family: var(--body-font);
-} */
+
 
 .frontpage__cardsText {
     font-family: var(--body-font);
     font-size: medium;
-   padding: 0 .5em;
+    padding: 0 .5em;
     line-height: 1.5;
- 
-    
+
+
 }
 
-.cards__button{
+.cards__button {
     padding: .6em;
     font-weight: 500;
     font-size: medium;
     background-color: var(--accent-color-dark-shade-03);
-    font-family: var(--highlights-font) ;
+    font-family: var(--highlights-font);
     border-style: none;
     width: 200px;
-   
+
     margin-top: .5em;
 
 }
-.frontpage__cardsButtonContainer{
+
+.frontpage__cardsButtonContainer {
     display: flex;
     align-content: center;
     height: 130px;
@@ -89,14 +86,163 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-    
+
 }
 
-.cards__button:hover{
+.cards__button:hover {
     background-color: var(--accent-color-dark);
     color: var(--accent-color-light);
 }
 
 a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 1070px) {
+
+    .frontpage__cards {
+        width: 50%;
+        height: 550px;
+        border-style: none;
+
+
+    }
+
+    .frontpage__cardsImg {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: block;
+        width: 100%;
+        height: 200px;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .frontpage__cardsContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        padding-top: 1em;
+
+    }
+
+    .frontpage__cards {
+        width: 100%;
+        height: fit-content;
+
+    }
+
+    .frontpage__cardsImg {
+        display: none;
+    }
+
+    .frontpage__cardsTitle {
+        font-family: var(--highlights-font);
+        background-color: var(--accent-color-dark);
+        font-weight: 100;
+        color: var(--accent-color-light);
+        text-transform: uppercase;
+
+        width: 50%;
+
+        padding: .5em;
+        margin: 0 0 .5em 2.4em;
+
+    }
+
+    .frontpage__cardsType {
+        margin: 0 3.5em;
+        text-align: left;
+
+
+    }
+
+    .frontpage__cardsText {
+
+        padding: 0 .5em;
+        line-height: 1.8;
+        margin: .7em 0 .5em 2.4em;
+
+
+    }
+
+    .cards__button {
+        padding: .6em;
+        width: fit-content;
+
+        margin: .5em 0 .5em 2.9em;
+
+    }
+
+    .frontpage__cardsButtonContainer {
+        display: flex;
+        height: fit-content;
+
+        align-content: flex-start;
+    }
+
+    .bitcoin__cards {
+        background-color: var(--primary-color);
+        border-radius: 0%;
+        padding: 1em;
+        color: var(--accent-color-light);
+    }
+
+    .frontpage__cards:hover {
+        transform: scale(1.1);
+        border: none;
+
+    }
+
+    .frontpage__ryanair {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 464px) {
+
+    .frontpage__cards {
+        width: 100%;
+        height: fit-content;
+        margin: .5em 0;
+        padding: .5em 0 0 0;
+        transition: none;
+
+    }
+
+    .frontpage__cards:hover {
+        transform: none;
+        border: none;
+
+    }
+
+    .frontpage__cardsContainer {
+        margin: 0 .5em;
+        padding: 0;
+        width: auto;
+    }
+
+    .frontpage__cardsTitle {
+        width: fit-content;
+        margin: .6em;
+    }
+
+    .frontpage__cardsText {
+        margin: 0.6em;
+    }
+
+    .frontpage__cardsType {
+        margin: 1em;
+    }
+    .frontpage__cardsButtonContainer {
+        align-content: center;
+        margin: 1em;
+    }
+    .cards__button {
+        margin: auto;
+
+
+    }
 }

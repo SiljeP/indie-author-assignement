@@ -15,14 +15,50 @@
         <div class="siteHeader__containerImg">
             <a href="./index.html" class="siteheader__frontpageLink">
                 <img class="siteHeader__img" src="./assets/images/ole+headshot.jpg"
-                    alt="Et billede af Ole Hall i sort og hvid">
+                    alt="Et billede af Ole Hall i sort og hvid"></a>
+                    <div class="frontpage__titleHeaderContainer">
                 <h1 class="siteHeader__title">Ole Hall</h1>
-            </a>
+            
             <h2 class="siteHeader__subtext">Forfatter & erhvervsjournalist</h2>
         </div>
-        <nav class="primaryNav">
-            <menu class="primaryNav__menu">
-                <div class="primaryNav__div">
+    </div>
+
+
+    <!-- Burgermenu til responsiv udgave af hjemmesiden -->
+    <a href="#content" class="sr-only">Spring til indholdet</a>
+    <div class="burgerNav__container"><button class="burgerMenuButton">
+        <span class="material-symbols-outlined">
+            menu
+            </span>
+        <span class="sr-only">Menu</span><span class="menu-text">
+        Menu</span>
+    </button></div>
+    
+        <nav class="burgerNav" aria-hidden="true">
+            
+                    
+                        <menu class="burgerNav__menu">
+                            <li class="burgerNav__menuItem"><a href="./kasi-jesper.html" class="burgerNav__link">Kasi-Jespers
+                                kamp</a></li>
+                        <li class="burgerNav__menuItem"><a href="./bitcoin.html"
+                                class="burgerNav__link">Bitcoin-bedraget</a></li>
+                        <li class="burgerNav__menuItem"><a href="./elon-musk.html" class="burgerNav__link">Elon Musk</a>
+                        </li>
+                    </div>
+                    <div class="burgerNav__div">
+                        <li class="burgerNav__menuItem-right"><a href="./books.html" class="burgerNav__link-right">Bøger</a>
+                        </li>
+                        <li class="burgerNav__menuItem-right"><a href="./about.html" class="burgerNav__link-right">Om</a></li>
+                        <li class="burgerNav__menuItem-right"><a href="./contact.html" class="burgerNav__link-right">Kontakt</a>
+                        </li>
+                        </menu>
+                    </nav>
+                
+
+                    <!-- Normal menu til desktop -->
+                    <nav class="primaryNav">
+                    <menu class="primaryNav__menu">
+                        <div class="primaryNav__div">
                     <li class="primaryNav__menuItem"><a href="./kasi-jesper.html" class="primaryNav__link">Kasi-Jespers
                             kamp</a></li>
                     <li class="primaryNav__menuItem"><a href="./bitcoin.html"
@@ -105,7 +141,7 @@
                         </button></a>
                 </div>
             </div>
-            <div class="frontpage__cards">
+            <div class="frontpage__cards bitcoin__cards">
                 <a href="./bitcoin.html"><img class="frontpage__cardsImg" src="./assets/images/bitcoin-full.jpeg"
                         alt="billedegrafik af bitcoin bedraget"></a>
                 <h3 class="frontpage__cardsTitle">Bitcoin-bedraget</h3>
@@ -163,20 +199,21 @@
                     <span class="frontpage__heroTitleLast--size">- Flyselskabet mange hader - men alligevel flyver
                         med</span>
                 </h3>
+                <h4 class="frontpage__ryanairSub">Flyselskabet mange hader - men alligevel flyver med.</h4>
                 <p class="hero__textLast">Michael O’Leary gjorde Ryanair til luftens svar på Aldi, og flyselskabet blev
                     under hans ledelse Europas mest succesfulde. Ryanair har i dag flest kunder, er det mest værdifulde
-                    flyselskab i Europa og er bedst til at tjene penge. I foråret 2015 blev det københavnernes tur til
+                    flyselskab i Europa og er bedst til at tjene penge. <span class="frontpage__ryanair"> I foråret 2015 blev det københavnernes tur til
                     at flyve med det kontroversielle, irske lavprisselskab. Men fagforeninger, politikere og
                     konkurrenter reagerede med modstand, da Ryanair åbnede sin første rute fra Københavns Lufthavn.
                     Ryanair vil på ingen måde tegne dansk overenskomst, men vil fortsætte brugen af kontrakt- og
                     vikaransættelser, som af en arbejdsmarkedsforsker er blevet kaldt “slavelignende vilkår”. Dette er
-                    historien om globalisering i praksis.
+                    historien om globalisering i praksis.</span>
                 </p>
                 <a href="./ryanair.html"><button class="hero__buttonLast">
                         <p class="hero__buttonText">Læs mere her</p>
                     </button></a>
             </div>
-            <a href="./ryanair.html"> <img class="hero__img" src="./assets/images/ryanair-cover.png"
+            <a href="./ryanair.html"> <img class="hero__img ryanair__img" src="./assets/images/ryanair-cover.png"
                     alt="cover af bogen omkring Ryanair"></a>
         </section>
     </main>
@@ -208,6 +245,7 @@
             </div>
     </footer>
     <script src="./assets/script/slider.js" defer></script>
+    <script src="./assets/script/burgermenu.js" defer></script>
    
 </body>
 

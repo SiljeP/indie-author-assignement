@@ -40,3 +40,34 @@
     background-color: var(--accent-color-dark);
     color: var(--accent-color-light);
 }
+
+@media screen and (max-width: 1070px){
+    .frontpage__news{
+        margin: auto;
+        border: solid;
+        width: 80%;
+        height: max-content;
+        padding: 1em;
+    }
+
+    .frontpage__newsSliderContainer{
+        padding: 1em;
+    }
+}
+@media screen and (max-width: 464px){
+    .frontpage__news{
+    
+        width: 100%;
+        height: max-content;
+        padding: .5em;
+    }
+
+    .news__title{
+        padding: 0.5em;
+        font-size: medium;
+        letter-spacing: .1em;
+    }
+    .news__button{
+       margin: 0 25%;
+    }
+}

@@ -1,3 +1,5 @@
+
+
 .bitcoin__Headerlink {
     font-weight: 800;
     font-size: large;
@@ -104,4 +106,66 @@
 .bitcoin__buttonContainer {
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 1070px) {
+    .podcast__soMeLinks {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        margin: 2em;
+        padding: 2em;
+        justify-content: space-between;
+    }
+
+    .bitcoin__button {
+        width: max-content;
+    }
+
+    .bitcoin__buttonContainer {
+        align-items: center;
+    }
+    .podimo__logo{
+        padding: 0 0em;
+        width: 6em;
+
+    }
+    .dr__logo{
+        width: 2.5em;
+    }
+
+    .fa-spotify{
+        padding: 0 .8em;
+        font-size: 2.5em;
+    }
+    .bitcoin__article {
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    .bitcoin__articleImg {
+        height: 20vh;
+        width: 30vh;
+        margin: 2em auto;
+        border-radius: 20px;
+        
+    }
+
+}
+    @media screen and (max-width: 464px){
+        .bitcoin__buttonContainer {
+            display: flex;
+           
+           flex-direction: column;
+         
+        }
+        .bitcoin__articleImg {
+            width: 20vh;
+            height: auto;
+            object-fit: fill;
+            margin: 2em auto;
+            border-radius: 20px;
+    }
+
+   
 }

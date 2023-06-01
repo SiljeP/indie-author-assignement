@@ -73,7 +73,7 @@
     border-style: none;
     text-transform: uppercase;
     width: max-content;
-    padding: .5em;
+    padding: .8em;
     border-radius: 20px;
     margin: 1.8em 1.2em;
     text-align: center;
@@ -84,5 +84,37 @@
     background-color: var(--accent-color-dark);
     cursor: pointer;
     color: var(--accent-color-light);
+
+}
+
+
+@media screen and (max-width: 464px){
+    .books__kasijesperContainer,
+.books__ryanairContainer,
+.books__elonmuskContainer,
+.books__pandoraContainer {
+    text-align: left;
+    padding: 1em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.books__elonmuskTitle,
+.books__kasijesperTitle,
+.books__pandoraTitle,
+.books__ryanairTitle {
+    padding: .3em;
+    margin: 1em .5em;
+}
+
+.books__elonmuskText,
+.books__kasijesperText,
+.books__pandoraText,
+.books__ryanairText {
+    width: 90%;
+    margin: 0 .5em;
+    padding-top: .5em;
+
+}
 
 }

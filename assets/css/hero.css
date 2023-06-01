@@ -13,7 +13,7 @@
 }
 
 .hero__img {
-    
+
     height: 18em;
     margin: 2em;
 }
@@ -22,16 +22,16 @@
     background-color: var(--accent-color-dark);
     color: var(--accent-color-light);
     font-family: var(--highlights-font);
-    
+
     text-transform: uppercase;
 
-    
+
     width: 60%;
     height: fit-content;
     padding: .5em;
     letter-spacing: .3em;
     margin: 2em .3em 0 .5em;
-    
+
 }
 
 .hero__text {
@@ -45,28 +45,33 @@
 
 }
 
-.hero__button{
+.hero__button {
     padding: .6em;
     font-weight: 500;
     font-size: medium;
     background-color: #E3B079;
-    font-family: var(--highlights-font) ;
+    font-family: var(--highlights-font);
     border-style: none;
     color: var(--accent-color-light);
-  
+
     width: fit-content;
     margin: 1em;
 }
 
-.hero__button:hover, .hero__buttonLast:hover{
- background-color: var(--accent-color-dark);
- 
+.hero__button:hover,
+.hero__buttonLast:hover {
+    background-color: var(--accent-color-dark);
+
 
 }
 
-.frontpage__heroContainerLast{
+.frontpage__ryanairSub {
+    display: none;
+}
+
+.frontpage__heroContainerLast {
     margin: 1em 0 0 0;
-    
+
     width: 100%;
     display: flex;
 }
@@ -79,7 +84,8 @@
     line-height: 1.7;
     margin: .5em 2em;
 }
-.frontpage__heroTitleLast{
+
+.frontpage__heroTitleLast {
     background-color: var(--accent-color-dark);
     color: var(--accent-color-light);
     font-family: var(--highlights-font);
@@ -93,21 +99,115 @@
     margin: 0 2em;
 }
 
-.hero__buttonLast{
+.hero__buttonLast {
     padding: .6em;
     font-weight: 500;
     font-size: medium;
     background-color: #E3B079;
-    font-family: var(--highlights-font) ;
+    font-family: var(--highlights-font);
     border-style: none;
     color: var(--accent-color-light);
     text-align: center;
-  
+
     width: fit-content;
     margin: 0 2em;
 }
 
-.frontpage__heroTitleLast--size{
+.frontpage__heroTitleLast--size {
     text-transform: lowercase;
     letter-spacing: .1em;
+}
+
+
+@media screen and (max-width: 1070px) {
+    .frontpage__heroTitle {
+        margin: 1em .3em 0 .5em;
+
+    }
+
+    .hero__img {
+        height: 20em;
+        margin: 1em;
+    }
+
+    .frontpage__heroTitleLast--size {
+        display: none;
+    }
+
+    .frontpage__ryanairSub {
+        font-family: var(--highlights-font);
+        display: inline;
+        font-size: medium;
+        padding: 0.5em;
+        line-height: 1.7;
+        margin: .5em 2em;
+        text-transform: uppercase;
+
+    }
+
+    .ryanair__img{
+        display: none;
+    }
+    .hero__textLast {
+       
+    
+      
+        padding: 0.5em;
+        line-height: 1.7;
+        margin: 0 2em;
+    }
+    .hero__buttonLast {
+        padding: .6em;
+        font-weight: 500;
+        font-size: medium;
+        background-color: #E3B079;
+        font-family: var(--highlights-font);
+        border-style: none;
+        color: var(--accent-color-light);
+        text-align: center;
+    
+        width: fit-content;
+        margin: 0 2.4em;
+    }
+  
+}
+@media screen and (max-width: 464px){
+    .frontpage__heroContainer{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .frontpage__heroTitle{
+        width: fit-content;
+    }
+
+    .hero__textLast {
+        margin: .5em .5em;
+    }
+    
+    .frontpage__heroTitleLast {
+       
+    
+        width: fit-content;
+        height: fit-content;
+        padding: .5em;
+        letter-spacing: .3em;
+        margin: .5em;
+    }
+    .hero__textContainer{
+        display: flex;
+        flex-wrap: wrap;
+
+        flex-direction: column;
+     
+        align-items: center;
+    }
+    .frontpage__heroTitleLast--size {
+  
+        letter-spacing: .1em;
+    }
+    .frontpage__ryanairSub{
+        margin: .5em;
+    }
+
 }
