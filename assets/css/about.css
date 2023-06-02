@@ -72,8 +72,8 @@
 
 @media screen and (max-width: 464px){
     .about__img{
-        height: 60vh;
-        width: 80%;
+        height: 50vh;
+        width: auto;
         
     }
    

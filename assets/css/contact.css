@@ -9,6 +9,8 @@
     width: 50%;
     padding: 2em;
 
+   
+
 }
 
 .contact__articleTitle {
@@ -29,10 +31,11 @@
 }
 .input__label {
     display: flex;
-    
+    font-size: large;
     padding: 0 2em;
     align-items: center;
     margin: 0 2em;
+    justify-content: center;
     
 }
 
@@ -41,6 +44,7 @@
     flex-direction: column;
     padding: 2em;
     flex-wrap: wrap;
+    font-family: var(--body-font);
     
 }
 
@@ -53,7 +57,7 @@
 }
 
 .form__submit {
-    margin-left: 5%;
+    margin: auto;
 }
 
 .form__submitButton {
@@ -64,10 +68,11 @@
     font-family: var(--highlights-font);
     border-style: none;
     text-transform: uppercase;
-    width: fit-content;
+    width: max-content;
     height: fit-content;
     padding: 1em;
     border-radius: 20px;
+    margin: auto;
 
 }
 
@@ -82,7 +87,7 @@
 .form__message {
     display: inline-block;
     padding: 10px;
-    font-size: x-small;
+    font-size: small;
 
 }
 @media screen and (max-width: 1070px){
@@ -90,6 +95,14 @@
         width: 100%;
         margin: auto;
         text-align: center;
+    }
+
+    .input__label{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .contact__form{
+        width: 100%;
     }
 }
 
