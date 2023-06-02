@@ -39,7 +39,7 @@
                 return makeFeedback("❌Skriv et gyldigt telefonnummer")
             }
         }
-        if (success)FORM.submit()
+        
     }
 
     function submitHandler(event) {
@@ -47,6 +47,7 @@
         success = true
 
         Array.from(event.target).forEach(element => validate(element))
+        if (success)FORM.submit()
     }
     const includeSymbol = (string, symbol) => string.includes(symbol)
     const tooManyAts = string => string.split("@").length > 2
