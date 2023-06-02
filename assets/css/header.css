@@ -31,7 +31,7 @@ body {
 }
 
 .siteHeader__img {
-    width: 120px;
+    width: auto;
     height: 140px;
     margin: 0.5rem 2rem 0.5rem 2rem;
 }
@@ -187,7 +187,7 @@ padding-right: 2em;
 
 @media screen and (max-width: 464px) {
     .siteHeader__img {
-        width: 120px;
+        width: auto;
         height: 140px;
         margin: 1em;
     }
