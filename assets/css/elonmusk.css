@@ -71,3 +71,20 @@
     color: var(--accent-color-light);
 
 }
+@media screen and (max-width: 1070px){
+    .elonmusk__article {
+        display: flex;
+       
+        flex-direction: column-reverse;
+    }
+
+    .elonmusk__articleTextContainer {
+        padding: 0 1.5em;
+    }
+
+    .elonmusk__articleImg {
+        height: 40vh;
+        width: auto;
+        
+    }
+}

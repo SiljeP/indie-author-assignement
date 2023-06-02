@@ -1,5 +1,6 @@
 # indie-author-assignement
 Indie assignement for school due the second of June. A site for author and economic journalist Ole Hall.
+[Github page!](https://siljep.github.io/indie-author-assignement/index.html)
 
 ### Purpose
 The website's purpose is to deliver information about Ole, his books and his other projects as a journalist, along with links for buying / reading / listening to these. As Ole has many different projects it's important to introduce all of the projects as one might search for one project without knowing the others exist. It will also be a place to contact Ole about talks or interviews.

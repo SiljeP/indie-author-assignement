@@ -87,6 +87,22 @@
 
 }
 
+@media screen and (max-width: 1070px){
+    .books__kasijesperContainer,
+    .books__ryanairContainer,
+    .books__elonmuskContainer,
+    .books__pandoraContainer {
+        
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .books__img{
+        width: 30%;
+        height: auto;
+        margin: 0 1.5em;
+        padding: 1em 0;
+    }
+}
 
 @media screen and (max-width: 464px){
     .books__kasijesperContainer,

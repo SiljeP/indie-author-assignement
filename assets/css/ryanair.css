@@ -103,18 +103,32 @@
 
 }
 
- .bt__container{
-    margin: 0 2em;
-    border-radius: 20px;
-    width: fit-content;
-    transition: box-shadow .5s ease;
-    padding: 1em;
+@media screen and (max-width: 1070px){
+    .ryanair__article{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ryanair__articleImg {
+        height: 40vh;
+        width: fit-content;
+        margin: 1em auto;
+        padding: 0;
+       
+    }
+  
 }
+@media screen and (max-width: 464px){
+ 
+    .ryanair__button {
 
- .bt__container:hover{
-    box-shadow: -6px 6px 16px 6px var(--accent-color-dark-shade-03);
-}
-
-.ryanair__mediaBT{
-    width: 5em;
+       margin: 1em auto;
+       display: flex;
+       justify-content: center;
+    }
+    .ryanair__articleImg {
+        height: 30vh;
+        width: fit-content;
+        
+       
+    }
 }

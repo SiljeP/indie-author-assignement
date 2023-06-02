@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: black;
    
 }
 
@@ -57,9 +58,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
+padding-right: 2em;
     width: 30px;
     text-align: right;
+    justify-content: flex-end;
 }
 
 .primaryNav {

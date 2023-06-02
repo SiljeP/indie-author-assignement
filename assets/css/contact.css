@@ -85,3 +85,11 @@
     font-size: x-small;
 
 }
+@media screen and (max-width: 1070px){
+    .contact__article{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+}
+

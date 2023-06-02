@@ -15,23 +15,59 @@
         <div class="siteHeader__containerImg">
             <a href="./index.html" class="siteheader__frontpageLink">
                 <img class="siteHeader__img" src="./assets/images/ole+headshot.jpg"
-                    alt="Et billede af Ole Hall i sort og hvid">
+                    alt="Et billede af Ole Hall i sort og hvid"></a>
+                    <div class="frontpage__titleHeaderContainer">
                 <h1 class="siteHeader__title">Ole Hall</h1>
-            </a>
+            
             <h2 class="siteHeader__subtext">Forfatter & erhvervsjournalist</h2>
         </div>
-        <nav class="primaryNav">
-            <menu class="primaryNav__menu">
-                <div class="primaryNav__div">
-                    <li class="primaryNav__menuItem"><a href="./kasi-jesper.html"
-                            class="primaryNav__link">Kasi-Jespers kamp</a></li>
+    </div>
+
+
+    <!-- Burgermenu til responsiv udgave af hjemmesiden -->
+    <a href="#content" class="sr-only">Spring til indholdet</a>
+    <div class="burgerNav__container"><button class="burgerMenuButton">
+        <span class="material-symbols-outlined">
+            menu
+            </span>
+        <span class="sr-only">Menu</span><span class="menu-text">
+        Menu</span>
+    </button></div>
+    
+        <nav class="burgerNav" aria-hidden="true">
+            
+                    
+                        <menu class="burgerNav__menu">
+                            <li class="burgerNav__menuItem"><a href="./kasi-jesper.html" class="burgerNav__link">Kasi-Jespers
+                                kamp</a></li>
+                        <li class="burgerNav__menuItem"><a href="./bitcoin.html"
+                                class="burgerNav__link">Bitcoin-bedraget</a></li>
+                        <li class="burgerNav__menuItem"><a href="./elon-musk.html" class="burgerNav__link">Elon Musk</a>
+                        </li>
+                    </div>
+                    <div class="burgerNav__div">
+                        <li class="burgerNav__menuItem-right"><a href="./books.html" class="burgerNav__link-right">Bøger</a>
+                        </li>
+                        <li class="burgerNav__menuItem-right"><a href="./about.html" class="burgerNav__link-right">Om</a></li>
+                        <li class="burgerNav__menuItem-right"><a href="./contact.html" class="burgerNav__link-right">Kontakt</a>
+                        </li>
+                        </menu>
+                    </nav>
+                
+
+                    <!-- Normal menu til desktop -->
+                    <nav class="primaryNav">
+                    <menu class="primaryNav__menu">
+                        <div class="primaryNav__div">
+                    <li class="primaryNav__menuItem"><a href="./kasi-jesper.html" class="primaryNav__link">Kasi-Jespers
+                            kamp</a></li>
                     <li class="primaryNav__menuItem"><a href="./bitcoin.html"
                             class="primaryNav__link">Bitcoin-bedraget</a></li>
                     <li class="primaryNav__menuItem"><a href="./elon-musk.html" class="primaryNav__link">Elon Musk</a>
                     </li>
                 </div>
                 <div class="primaryNav__div">
-                    <li class="primaryNav__menuItem books__headerLink"><a href="./books.html" class="primaryNav__link-right">Bøger</a>
+                    <li class="primaryNav__menuItem"><a href="./books.html" class="primaryNav__link-right">Bøger</a>
                     </li>
                     <li class="primaryNav__menuItem"><a href="./about.html" class="primaryNav__link-right">Om</a></li>
                     <li class="primaryNav__menuItem"><a href="./contact.html" class="primaryNav__link-right">Kontakt</a>
@@ -93,9 +129,9 @@
             </div>
         </section>
 
-        <section class="pandora__media">
+        <!-- <section class="pandora__media">
             <h4 class="pandora__mediaTitle">Artikler og podcasts om bogen </h4>
-        </section>
+        </section> -->
             
 
     </main>
@@ -105,23 +141,29 @@
         <div class="footer__container">
             <menu class="footer__menu">
                 <h3 class="footer__linksTitle">Links</h3>
-                <li class="footer__links"><a href="#">Om Ole Hall</a></li>
-                <li class="footer__links"><a href="#">Kontakt</a></li>
-                <li class="footer__links"><a href="#">Kasi-Jespers Kamp</a></li>
-                <li class="footer__links"><a href="#">Bitcoin-bedraget</a></li>
-                <li class="footer__links"><a href="#">Pandora - Danmarks vildeste væksteventyr</a></li>
-                <li class="footer__links"><a href="#">Ryanair - Flyselskabet mange hader - men alligevel flyver med</a>
+                <li class="footer__links"><a href="./about.html">Om Ole Hall</a></li>
+                <li class="footer__links"><a href="./contact.html">Kontakt</a></li>
+                <li class="footer__links"><a href="./elon-musk.html">Elon Musk</a></li>
+                <li class="footer__links"><a href="./kasi-jesper.html">Kasi-Jespers Kamp</a></li>
+                <li class="footer__links"><a href="./bitcoin.html">Bitcoin-bedraget</a></li>
+                <li class="footer__links"><a href="./pandora.html">Pandora - Danmarks vildeste væksteventyr</a></li>
+                <li class="footer__links"><a href="./ryanair.html">Ryanair - Flyselskabet mange hader - men alligevel
+                        flyver med</a>
                 </li>
             </menu>
             <div class="footer__socials">
-                <a href="#"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
-                <a href="#"><i class="fa-brands fa-square-twitter" style="color: #000000;"></i></a>
+                <a href="https://dk.linkedin.com/in/olehall"><i class="fa-brands fa-linkedin"
+                        style="color: #000000;"></i></a>
+                <a href="https://twitter.com/olehall?s=20"><i class="fa-brands fa-square-twitter"
+                        style="color: #000000;"></i></a>
             </div>
             <div class="copyright__container">
-        <p class="footer__copyright">© Copyright Ole Hall - Forfatter og Erhvervsjournalist 2023.
-            Website af Silje Paldrup</p>
+            <p class="footer__copyright">© Copyright Ole Hall - Forfatter og Erhvervsjournalist 2023.
+                Website af Silje Paldrup</p>
             </div>
     </footer>
+ 
+    <script src="./assets/script/burgermenu.js" defer></script>
 </body>
 
 </html>

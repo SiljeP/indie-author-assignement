@@ -152,3 +152,59 @@
 .kasijesper__mediaEB{
     width: 3em;
 }
+
+@media screen and (max-width: 1070px){
+    .kasijesper__article {
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .kasijesper__articleTextContainer {
+        display: flex;
+        flex-direction: column;
+    
+        padding: 2em;
+    }
+
+    .kasijesper__articleImg {
+        height: auto;
+        width: 50%;
+        margin: 1em auto;
+        border-radius: 20px;
+    }
+
+    .kasijesper__review{
+        width: 90%;
+        margin: auto;
+       height: fit-content;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+    }
+
+    .kasijesper__reviewBox{
+        margin: 1em auto;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 464px){
+    .kasijesper__review{
+        width: 80%;
+        margin: auto;
+       height: fit-content;
+       
+    }
+    .kasijesper__reviewBox{
+        width: 90%;
+    }
+    .kasijesper__button {
+
+       margin: auto;
+       display: flex;
+       justify-content: center;
+       
+    }
+}

@@ -15,92 +15,146 @@
         <div class="siteHeader__containerImg">
             <a href="./index.html" class="siteheader__frontpageLink">
                 <img class="siteHeader__img" src="./assets/images/ole+headshot.jpg"
-                    alt="Et billede af Ole Hall i sort og hvid">
-                <h1 class="siteHeader__title">Ole Hall</h1></a>
-            <h2 class="siteHeader__subtext">Forfatter & erhvervsjournalist</h2>
+                    alt="Et billede af Ole Hall i sort og hvid"></a>
+            <div class="frontpage__titleHeaderContainer">
+                <h1 class="siteHeader__title">Ole Hall</h1>
+
+                <h2 class="siteHeader__subtext">Forfatter & erhvervsjournalist</h2>
+            </div>
         </div>
+
+
+        <!-- Burgermenu til responsiv udgave af hjemmesiden -->
+        <a href="#content" class="sr-only">Spring til indholdet</a>
+        <div class="burgerNav__container"><button class="burgerMenuButton">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+                <span class="sr-only">Menu</span><span class="menu-text">
+                    Menu</span>
+            </button></div>
+
+        <nav class="burgerNav" aria-hidden="true">
+
+
+            <menu class="burgerNav__menu">
+                <li class="burgerNav__menuItem"><a href="./kasi-jesper.html" class="burgerNav__link">Kasi-Jespers
+                        kamp</a></li>
+                <li class="burgerNav__menuItem"><a href="./bitcoin.html" class="burgerNav__link">Bitcoin-bedraget</a>
+                </li>
+                <li class="burgerNav__menuItem"><a href="./elon-musk.html" class="burgerNav__link">Elon Musk</a>
+                </li>
+                </div>
+                <div class="burgerNav__div">
+                    <li class="burgerNav__menuItem-right"><a href="./books.html" class="burgerNav__link-right">Bøger</a>
+                    </li>
+                    <li class="burgerNav__menuItem-right"><a href="./about.html" class="burgerNav__link-right">Om</a>
+                    </li>
+                    <li class="burgerNav__menuItem-right"><a href="./contact.html"
+                            class="burgerNav__link-right">Kontakt</a>
+                    </li>
+            </menu>
+        </nav>
+
+
+        <!-- Normal menu til desktop -->
         <nav class="primaryNav">
             <menu class="primaryNav__menu">
                 <div class="primaryNav__div">
-                    <li class="primaryNav__menuItem"><a href="./kasi-jesper.html" class="primaryNav__link">Kasi-Jespers kamp</a></li>
-                    <li class="primaryNav__menuItem"><a href="./bitcoin.html" class="primaryNav__link">Bitcoin-bedraget</a></li>
-                    <li class="primaryNav__menuItem"><a href="./elon-musk.html" class="primaryNav__link">Elon Musk</a></li>
+                    <li class="primaryNav__menuItem"><a href="./kasi-jesper.html" class="primaryNav__link">Kasi-Jespers
+                            kamp</a></li>
+                    <li class="primaryNav__menuItem"><a href="./bitcoin.html"
+                            class="primaryNav__link">Bitcoin-bedraget</a></li>
+                    <li class="primaryNav__menuItem"><a href="./elon-musk.html" class="primaryNav__link">Elon Musk</a>
+                    </li>
                 </div>
                 <div class="primaryNav__div">
-                    <li class="primaryNav__menuItem"><a href="./books.html" class="primaryNav__link-right">Bøger</a></li>
+                    <li class="primaryNav__menuItem"><a href="./books.html" class="primaryNav__link-right">Bøger</a>
+                    </li>
                     <li class="primaryNav__menuItem"><a href="./about.html" class="primaryNav__link-right">Om</a></li>
-                    <li class="primaryNav__menuItem"><a href="./contact.html" class="primaryNav__link-right contact__headerLink">Kontakt</a></li>
+                    <li class="primaryNav__menuItem"><a href="./contact.html" class="primaryNav__link-right">Kontakt</a>
+                    </li>
                 </div>
             </menu>
         </nav>
     </header>
-<main>
-    <article class="contact__article">
-        <h2 class="contact__articleTitle">Kontakt Ole Hall</h2>
-        <p class="contact__articleBodyText">Ønsker om interview, foredrag mv. kan rettes direkte til Ole Hall på 28544737 ved at bruge kontaktformularen her på siden,  skrive til kontakt@olehall.dk eller til oleh@dr.dk.
-        </p>
-    </article>
-    
+    <main>
+        <article class="contact__article">
+            <h2 class="contact__articleTitle">Kontakt Ole Hall</h2>
+            <p class="contact__articleBodyText">Ønsker om interview, foredrag mv. kan rettes direkte til Ole Hall på
+                28544737 ved at bruge kontaktformularen her på siden, skrive til kontakt@olehall.dk eller til
+                oleh@dr.dk.
+            </p>
+        </article>
 
-    <form class="contact__form" action="./thankyou.html" novalidate >
-        <div class="form__field">
-            <label class="input__label">Navn:
-                <input id="inputName" class="form__input" type="text" name="navn" placeholder="F.eks Brian" required>
-            </label>
-            <span class="form__message"></span>
-        </div>
-        <div class="form__field">
-            <label class="input__label">E-mail:
-                <input id="inputEmail" class="form__input" type="email" name="email"
-                placeholder="F.eks megetvigtigt@journalist.dk" required>
-            </label>
-            <span class="form__message"></span>
-        </div>
-        <div class="form__field">
-            <label class="input__label">Telefon: 
-                <input id="inputNumber" class="form__input" type="tel" name="tlf" placeholder="F.eks 10203040" required>
-            </label>
-            <span class="form__message"></span>
-        
-        </div>
-        <div class="form__field">
-            <label  class="input__label">Besked:
-                <textarea class="form__input" placeholder="F.eks. Jeg vil gerne inviterer Ole på besøg hos dronningen" required></textarea>
-            </label>
-            <span class="form__message"></span>
-        </div>
-        <div class="form__submit">
-            <button class="form__submitButton" type="submit">Send</button>
-        </div>
-    </form>
 
-</main>
+        <form class="contact__form" action="./thankyou.html" novalidate>
+            <div class="form__field">
+                <label class="input__label">Navn:
+                    <input id="inputName" class="form__input" type="text" name="navn" placeholder="F.eks Brian"
+                        required>
+                </label>
+                <span class="form__message"></span>
+            </div>
+            <div class="form__field">
+                <label class="input__label">E-mail:
+                    <input id="inputEmail" class="form__input" type="email" name="email"
+                        placeholder="F.eks megetvigtigt@journalist.dk" required>
+                </label>
+                <span class="form__message"></span>
+            </div>
+            <div class="form__field">
+                <label class="input__label">Telefon:
+                    <input id="inputNumber" class="form__input" type="tel" name="tlf" placeholder="F.eks 10203040"
+                        required>
+                </label>
+                <span class="form__message"></span>
+
+            </div>
+            <div class="form__field">
+                <label class="input__label">Besked:
+                    <textarea class="form__input"
+                        placeholder="F.eks. Jeg vil gerne inviterer Ole på besøg hos dronningen" required></textarea>
+                </label>
+                <span class="form__message"></span>
+            </div>
+            <div class="form__submit">
+                <button class="form__submitButton" type="submit">Send</button>
+            </div>
+        </form>
+
+    </main>
 
     <footer>
         <img class="footer__svg" src="./assets/images/footer-wave.svg" alt="bølgende farve der går ned i footeren">
         <div class="footer__container">
             <menu class="footer__menu">
                 <h3 class="footer__linksTitle">Links</h3>
-                <li class="footer__links"><a href="#">Om Ole Hall</a></li>
-                <li class="footer__links"><a href="#">Kontakt</a></li>
-                <li class="footer__links"><a href="#">Kasi-Jespers Kamp</a></li>
-                <li class="footer__links"><a href="#">Bitcoin-bedraget</a></li>
-                <li class="footer__links"><a href="#">Pandora - Danmarks vildeste væksteventyr</a></li>
-                <li class="footer__links"><a href="#">Ryanair - Flyselskabet mange hader - men alligevel flyver med</a>
+                <li class="footer__links"><a href="./about.html">Om Ole Hall</a></li>
+                <li class="footer__links"><a href="./contact.html">Kontakt</a></li>
+                <li class="footer__links"><a href="./elon-musk.html">Elon Musk</a></li>
+                <li class="footer__links"><a href="./kasi-jesper.html">Kasi-Jespers Kamp</a></li>
+                <li class="footer__links"><a href="./bitcoin.html">Bitcoin-bedraget</a></li>
+                <li class="footer__links"><a href="./pandora.html">Pandora - Danmarks vildeste væksteventyr</a></li>
+                <li class="footer__links"><a href="./ryanair.html">Ryanair - Flyselskabet mange hader - men alligevel
+                        flyver med</a>
                 </li>
             </menu>
             <div class="footer__socials">
-                <a href="#"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
-                <a href="#"><i class="fa-brands fa-square-twitter" style="color: #000000;"></i></a>
+                <a href="https://dk.linkedin.com/in/olehall"><i class="fa-brands fa-linkedin"
+                        style="color: #000000;"></i></a>
+                <a href="https://twitter.com/olehall?s=20"><i class="fa-brands fa-square-twitter"
+                        style="color: #000000;"></i></a>
             </div>
-
             <div class="copyright__container">
-        <p class="footer__copyright">© Copyright Ole Hall - Forfatter og Erhvervsjournalist 2023.
-            Website af Silje Paldrup</p>
+                <p class="footer__copyright">© Copyright Ole Hall - Forfatter og Erhvervsjournalist 2023.
+                    Website af Silje Paldrup</p>
             </div>
     </footer>
+
+    <script src="./assets/script/burgermenu.js" defer></script>
     <script src="./assets/script/contact.js" defer></script>
-    
+
 </body>
 
 </html>
