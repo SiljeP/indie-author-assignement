@@ -8,8 +8,6 @@
 
 body {
     overflow-x: hidden;
-
-
 }
 
 .burgerMenuButton {
@@ -111,7 +109,9 @@ body {
 
 
 @media screen and (max-width: 1070px) {
-
+    body{
+        overflow-x: hidden;
+    }
     .primaryNav {
         display: none;
     }
@@ -138,6 +138,7 @@ body {
         position: absolute;
         background-color: var(--primary-color);
         right: 0;
+   
 
 
         height: fit-content;
@@ -166,6 +167,8 @@ body {
     .burgerNav__menu {
         padding: 1em;
         list-style: none;
+      
+        
 
     }
 
